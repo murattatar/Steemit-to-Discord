@@ -1,4 +1,4 @@
-# Steemit-to-Discord
+# Steemit to Discord
 Send your last Steemit post to Discord channels 
 
 ---
