@@ -23,7 +23,10 @@ We need these modules
 * win32gui
 
 If you dont have you can install with PIP (on console/cmd)
-eg.: <code>pip install requests</code>
+eg.: 
+<code>pip install requests</code> 
+<code>pip install pyperclip</code>
+etc..
 
 ### Use
 * Run the program
