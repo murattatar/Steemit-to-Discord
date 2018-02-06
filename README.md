@@ -1,6 +1,9 @@
 # Steemit to Discord
-Send your last Steemit post to Discord channels
+Send your last Steemit post to public Discord promo channels
 
+---
+
+![cover](https://github.com/murattatar/Steemit-to-Discord/blob/master/uu-std.jpg?raw=true)
 ---
 
 ### Notice
