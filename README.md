@@ -36,7 +36,8 @@ etc..
 * Write your Steemit User Name
 * Click to Start
 
-### Known bugs
+### Notice
 TkInter windows freezing when closing
+
 Maybe you will need CTRL + ALT + DEL and Stop to Process
 
