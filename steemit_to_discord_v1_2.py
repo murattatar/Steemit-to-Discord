@@ -9,9 +9,7 @@
 ''' Browser should remember you '''
 
 ''' Cliq function running according to 1360x168 resolution, you should set to your own resolution '''
-
 ''' Don't use ClipBoard for anything while running (may can send a your image/txt that has been copied ) '''
-
 
 
 ''' We are using TkInter window UserBox. If you want, you can set USERNAME in here '''
@@ -29,7 +27,6 @@ import os
 
 ''' get pages '''
 import requests
-
 
 ''' clipboard '''
 import pyperclip
@@ -51,6 +48,7 @@ def e():
 
 
 
+''' # dictionaries before coding '''
 
 
 ''' Public and free "post-promotion" channel for Steemit on Discord.
@@ -251,13 +249,7 @@ VK_CODE = {'backspace':0x08,
 
 
 
-
-
-
 ''' # Codes begins after dictionaries ########################'''
-
-
-
 
 
 ''' Control Functions ######################## '''
@@ -324,9 +316,6 @@ def RightCliq(x, y):
 
 
 
-
-
-
 ''' # catch the requested word(s) '''
 def Between(begin,end,sentence):
     b1 = sentence.split(begin)
@@ -343,8 +332,6 @@ def Between(begin,end,sentence):
 
 def SteemitToDicord(username):
 
-
-
 	''' Get your lastest post '''
 	st_url = 'https://steemit.com/@'+username
 
@@ -360,7 +347,6 @@ def SteemitToDicord(username):
 
 	''' # If international keyboards cause trouble you can use pyperclip.copy(post) '''
 	pyperclip.copy(first_post_url)
-
 
 
 
@@ -403,11 +389,6 @@ def SteemitToDicord(username):
 
 
 
-
-
-
-
-
 ''' ## Window functions ########## '''
 
 def wquit():
@@ -417,10 +398,8 @@ def wquit():
     e()
 
 
-
 def SendtoStrBox(sunu):    
     var.set(sunu)
-
 
 
 def Startd():
@@ -429,12 +408,10 @@ def Startd():
 	SteemitToDicord(username)
 
 
-
 def Stopd():
     wquit()
 
     
-
 
 def BoxPlace(event):
        
@@ -459,11 +436,12 @@ sbox.iconbitmap(default='std.ico')
 sboxTitle = sbox.title("Steemit to Discord v1.0 -alfa")
 
 en = 530; by = 345
-#ekran boyutu ogren
+''' # screen size '''
 sw = sbox.winfo_screenwidth()
 sh = sbox.winfo_screenheight()
 x = (sw-en)/2+7
 y = (sh-by)/2-102
+
 
 go = str(en) + "x" + str(by) + "+" + str(x) + "+" + str(y)
 
@@ -488,7 +466,6 @@ userBox.bind('<FocusIn>', BoxPlace)
 
 symimage1 = ImageTk.PhotoImage(file="start.gif")
 
-
 startBtn  = Button(image=symimage1,command= Startd); startBtn.place(x=290, y=80)
 
 
@@ -509,6 +486,7 @@ def bringFront():
     #sbox.attributes('-topmost', 0)
 
 bringFront()	
+
 
 
 
