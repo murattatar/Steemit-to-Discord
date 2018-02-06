@@ -3,7 +3,7 @@ Send your last Steemit post to public Discord promo channels
 
 ---
 
-![cover](https://github.com/murattatar/Steemit-to-Discord/blob/master/uu-std.jpg?raw=true)
+![cover](https://github.com/murattatar/Steemit-to-Discord/blob/master/cover2.jpg?raw=true)
 ---
 
 ### Notice
