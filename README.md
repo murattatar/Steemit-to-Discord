@@ -24,8 +24,11 @@ We need these modules
 
 If you dont have you can install with PIP (on console/cmd)
 eg.: 
+
 <code>pip install requests</code> 
+
 <code>pip install pyperclip</code>
+
 etc..
 
 ### Use
